@@ -5,7 +5,6 @@ class Count extends Component {
   super(props)
   this.state={
     number:0,
-    step:1
   }
 }
 handlerChange=({target:{value}})=>{
